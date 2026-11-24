@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and local settings (never commit these)
+.env
+*.token
+
+# Data files (keep them in ADLS, not in Git)
+output/
+raw_penalty/
+*.csv
+*.parquet
+*.zip
+*.xlsx
+*.xls
+
+# Databricks bundle and editor files
+.databricks/
+.vscode/
+.idea/
+.DS_Store
